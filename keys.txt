@@ -1,0 +1,4 @@
+# FORMAT: KEY=DEVICE_ID:STATUS
+# STATUS: active / banned
+X3-TEST-001=unknown:active
+X3-TEST-002=device_fake_123:banned
