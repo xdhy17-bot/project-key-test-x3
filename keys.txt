@@ -3,3 +3,4 @@
 X3BETA001=unknown:active
 X3BETA002=unknown:banned
 X3BETA003=unknown:expired
+X3BETA004=unknown:active
