@@ -1,6 +1,14 @@
-# FORMAT: KEY=DEVICE_ID:STATUS
-# STATUS: active / banned
-X3BETA001=unknown:active
-X3BETA002=unknown:banned
-X3BETA003=unknown:expired
-X3BETA004=unknown:active
+# ==========================================
+# X3TeamID - Advanced Key Database
+# Format: KEY=DEVICE_ID:OS_TYPE:EXPIRE_DATE:STATUS
+# OS_TYPE: android / ios / any
+# EXPIRE_DATE: YYYY-MM-DD (atau 'never')
+# STATUS: active / banned / trial
+# ==========================================
+X3-BETA-001=unknown:android:2026-12-31:active
+X3-BETA-002=unknown:ios:2026-05-30:active
+X3-BETA-003=unknown:ios:2026-05-15:expired
+X3-BETA-004=unknown:ios:2026-05-22:active
+X3-BETA-005=unknown:ios:2026-05-30:banned
+X3-VIP-001=unknown:any:never:active
+X3-TRIAL-001=unknown:android:2026-05-25:trial
